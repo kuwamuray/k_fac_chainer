@@ -21,7 +21,7 @@ K-FAC実装への道のり
 6. L2正則化と組み合わせる
    6-1. damping =（L2正則化の係数 + damping）で5-1 - 5-3 を行う (edited)
 
-oosawak [12:10 PM]
+
 実装が進み次第適宜以下を実験
 1. A,GがPSDとなっていることを確かめる
    1-0. A,Gが対称行列であることを確認する
@@ -40,7 +40,7 @@ oosawak [12:10 PM]
    3-3. （θのノルム）/（kfgradのノルム）を観察
    3-4. 学習率、L2正則化、dampingとこれらの値との関係を観察する (edited)
 
-oosawak [12:24 PM]
+
 K-FAC実装が終わったら、やっていきたいこと
 1. K-FAC for RNNの実装
 2. K-FAC for 強化学習の実装
@@ -51,5 +51,7 @@ K-FAC実装が終わったら、やっていきたいこと
 7. F_invのブロック三重対角近似の実装
 8. K-FACと正規化手法（BatchNormなど）との関係を観察
 9. パラメータ数の少ないネットワーク（ResNextなど）へのK-FACの適用（inv計算がかなり楽になる＆収束は速い）
+
+
 @kuwamuray  Chainer
 @Hikaru PyTorch
